@@ -1,5 +1,7 @@
 #!/bin/bash
 
+docker rm midi-relay-client
+
 docker run -it \
   --name midi-relay-server \
   --device /dev/snd \
