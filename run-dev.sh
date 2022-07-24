@@ -1,3 +1,5 @@
+#!/bin/bash
+
 docker run -it \
   --name midi-relay \
   --mount type=bind,source="$(pwd)"/src,destination=/src \
